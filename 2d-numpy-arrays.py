@@ -13,3 +13,14 @@ np_2d = np.array([[1.73, 1.68, 1.82],
 print (np_2d)
 print (np_2d.shape)
 
+np_2d[0][1]
+print (np_2d)
+
+np_2d[0, 1]
+print(np_2d)
+
+print (np_2d[:, 1:3])
+
+print (np_2d[1, :])
+
+
