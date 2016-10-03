@@ -11,3 +11,7 @@ np_weight = np.array(weight)
 bmi = np_weight / np_height ** 2
 
 print (bmi)
+
+print (bmi[1])
+
+print (bmi > 20)
